@@ -28,8 +28,8 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  height: 2.5rem;
+  // flex-wrap: wrap;
+  height: 3rem;
   width: 100%;
   background-color: #01939A;
   border-bottom: 1px solid #006064;
@@ -43,8 +43,9 @@ h1 {
         .menu-item--link {
           font-family: 'Roboto', sans-serif;
           padding: 5px 10px;
-          text-transform: uppercase;
+          // text-transform: uppercase;
           color: white;
+          border: 1px solid white;
           background-color: #1D7074;
           // border-radius: 5px;
         }
@@ -57,8 +58,39 @@ h1 {
 
 .intro {
     text-align: center;
-    h1 {
-        font-style: italic;
+    background-image: url("../img/bg-intro.png");
+    background-position: center center;
+    background-size: cover;
+
+    .intro-text {
+        width: 50%;
+        padding: 20px;
+        margin: 0 auto;
+        border: 2px solid white;
+        border-radius: 5px;
+        color: white;
+        background-color: rgba(26, 59, 61, 0.6);
+
+        .fa-angle-double-left {
+          margin-right: 5px;
+        }
+
+        .fa-angle-double-right {
+          // font-size: 0.7rem;
+          margin-left: 5px;
+        }
+
+        p {
+          font-family: 'Neutron', serif;
+          margin-bottom: 20px;
+          font-size: 1.5rem;
+          line-height: 2rem;
+        }
+
+        p:last-child {
+          margin-bottom: 0px;
+
+        }
     }
 }
 // Make each section height 90% of browser's height
@@ -89,4 +121,20 @@ section, footer {
   font-size: 1.3em;
   padding: 15px 10px;
   // text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .nav .nav-menu .menu-item {
+    margin-right: 0px;
+  }
+  .menu-item--link {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav .nav-menu .menu-item {
+    margin-right: 0px;
+  }
+
 }

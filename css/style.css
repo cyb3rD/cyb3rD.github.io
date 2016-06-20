@@ -82,8 +82,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  height: 2.5rem;
+  height: 3rem;
   width: 100%;
   background-color: #01939A;
   border-bottom: 1px solid #006064;
@@ -95,8 +94,8 @@ h1 {
 .nav .nav-menu .menu-item .menu-item--link {
   font-family: 'Roboto', sans-serif;
   padding: 5px 10px;
-  text-transform: uppercase;
   color: white;
+  border: 1px solid white;
   background-color: #1D7074;
 }
 .nav .nav-menu .menu-item .menu-item--link:hover {
@@ -105,9 +104,33 @@ h1 {
 
 .intro {
   text-align: center;
+  background-image: url("../img/bg-intro.png");
+  background-position: center center;
+  background-size: cover;
 }
-.intro h1 {
-  font-style: italic;
+.intro .intro-text {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(26, 59, 61, 0.6);
+}
+.intro .intro-text .fa-angle-double-left {
+  margin-right: 5px;
+}
+.intro .intro-text .fa-angle-double-right {
+  margin-left: 5px;
+}
+.intro .intro-text p {
+  font-family: 'Neutron', serif;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.intro .intro-text p:last-child {
+  margin-bottom: 0px;
 }
 
 section, footer {
@@ -138,4 +161,19 @@ section, footer {
   font-family: 'Neuton', serif;
   font-size: 1.3em;
   padding: 15px 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .nav .nav-menu .menu-item {
+    margin-right: 0px;
+  }
+
+  .menu-item--link {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav .nav-menu .menu-item {
+    margin-right: 0px;
+  }
 }
