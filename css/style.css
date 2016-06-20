@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  padding: 0 1em;
+}
+
+.nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 2.5rem;
+  width: 100%;
+  background-color: #01939A;
+  border-bottom: 1px solid #006064;
+}
+.nav .nav-menu .menu-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+.nav .nav-menu .menu-item .menu-item--link {
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #1D7074;
+}
+.nav .nav-menu .menu-item .menu-item--link:hover {
+  background-color: #006064;
+}
+
+.intro {
+  text-align: center;
+}
+.intro h1 {
+  font-style: italic;
+}
+
+section, footer {
+  height: 100vh;
+  padding-top: 3.5rem;
+}
+
+.section--header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.avatar {
+  -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.article-text {
+  font-family: 'Neuton', serif;
+  font-size: 1.3em;
+  padding: 15px 10px;
+}
