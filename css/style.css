@@ -112,6 +112,7 @@ h1 {
   width: 50%;
   padding: 20px;
   margin: 0 auto;
+  margin-bottom: 20px;
   border: 2px solid white;
   border-radius: 5px;
   color: white;
@@ -161,6 +162,69 @@ section, footer {
   font-family: 'Neuton', serif;
   font-size: 1.3em;
   padding: 15px 10px;
+}
+
+.container-info {
+  display: flex;
+  margin: 0 auto;
+}
+
+.container-info .info-foto {
+    -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.info-skills {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  margin-right: 20px;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(26, 59, 61, 0.6);
+}
+
+.info-skills--caption {
+  flex: 1;
+  padding-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.info-skills--list {
+  flex: 1;
+}
+
+.info-skills--item {
+  display: flex;
+  align-items: center;
+}
+
+.info-skills--logo,
+.info-skills--name,
+.info-skills--level {
+  flex: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+} 
+
+
+
+.skills-logo--img{
+  width: 100px;
+  height: 100px;
 }
 
 @media screen and (max-width: 320px) {

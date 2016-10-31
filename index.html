@@ -8,64 +8,112 @@
     <![endif]-->
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Neuton|Roboto:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Neuton|Roboto:400,400i|Oswald:700" rel="stylesheet">
   </head>
+  <body>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li class="menu-item">
+          <a class="menu-item--link" href="#intro">Home</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-item--link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-item--link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
 
-  <nav class="nav">
-    <ul class="nav-menu">
-      <li class="menu-item">
-        <a class="menu-item--link" href="#intro">Home</a>
-      </li>
-      <li class="menu-item">
-        <a class="menu-item--link"href="#about-me">About me</a>
-      </li>
-      <li class="menu-item">
-        <a class="menu-item--link" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="menu-item">
-        <a class="menu-item--link" href="#contacts">Contacts</a>
-      </li>
-    </ul>
-  </nav>
+    <section id="intro" class="intro">
+        <img class="avatar" src="img/avatar.png" width="100" height="100"  />
+        <div class="intro-text">
 
-  <section id="intro" class="intro">
-      <img class="avatar" src="img/avatar.png" width="100" height="100"  />
-      <div class="intro-text">
+          <p><i class="fa fa-angle-double-left" aria-hidden="true"></i>Hello, I'm Nikolay Ignatyev.
+          I'm Junior Web developer looking for full-time job in Saint-Petersburg, Russia<i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
+        </div>
 
-        <p><i class="fa fa-angle-double-left" aria-hidden="true"></i>Hello, I'm Nikolay Ignatyev.
-        I'm a Junior Front-End developer from Saint-Petersburg, Russia<i class="fa fa-angle-double-right" aria-hidden="true"></i></p>
-      </div>
-  </section>
+        <div class="container-info">
+          <img class="info-foto" src="img/nikolay.png" width="300" height="400" alt="">
+          
+          <div class="info-skills">
+            <p class="info-skills--caption">Front End</p>
+            <ul class="info-skills--list">
+              <li class="info-skills--item">
+                <div class="info-skills--logo">
+                  <img class="skills-logo--img" src="" alt="">
+                </div>
+                <div class="info-skills--name">JavaScript</div>
+                <div class="info-skills--level">Junior</div>
+              </li>
+              <li class="info-skills--item">
+                <div class="info-skills--logo">
+                  <img class="skills-logo--img" src="" alt="">  
+                </div>
+                <div class="info-skills--name">CSS3</div>
+                <div class="info-skills--level">Junior</div>
+              </li>
+              <li class="info-skills--item">
+                <div class="info-skills--logo">
+                  <img class="skills-logo--img" src="" alt="">  
+                </div>
+                <div class="info-skills--name">HTML5</div>
+                <div class="info-skills--level">Junior</div>
+              </li>
 
-  <section id="about-me" class="about-me">
-    <h1 class="section--header">About me</h1>
-    <article class="article-text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis molestias tempora mollitia
-      deleniti, velit amet quasi alias commodi quos. Soluta ullam magnam earum enim excepturi dolorem laborum,
-      veniam hic. Voluptas.
-    </article>
-  </section>
+            </ul>
+          </div>
 
-  <section id="portfolio" class="profolio">
-    <h1 class="section--header">My projects</h1>
-    <article class="article-text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis molestias tempora mollitia
-      deleniti, velit amet quasi alias commodi quos. Soluta ullam magnam earum enim excepturi dolorem laborum,
-      veniam hic. Voluptas.
-    </article>
-  </section>
+          <div class="info-skills">
+            <p class="info-skills--caption">Back End</p>
+            <ul class="info-skills--list">
+              <li class="info-skills--item">
+                <div class="info-skills--logo">
+                  <img class="skills-logo--img" src="img/nodejs.png" alt="">
+                </div>
+                <div class="info-skills--name">Node.js</div>
+                <div class="info-skills--level">Beginner</div>
+              </li>
+              <li class="info-skills--item">
+                <div class="info-skills--logo">
+                  <img class="skills-logo--img" src="img/expressjs.png" alt="">  
+                </div>
+                <div class="info-skills--name">Express.js</div>
+                <div class="info-skills--level">Beginner</div>
+              </li>
+              <li class="info-skills--item">
+                <div class="info-skills--logo">
+                  <img class="skills-logo--img" src="img/mongodb.png" alt="">  
+                </div>
+                <div class="info-skills--name">MongoDB</div>
+                <div class="info-skills--level">Beginner</div>
+              </li>
 
-  <footer id="contacts">
-    <h1 class="section--header">Contacts</h1>
-    <article class="article-text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis molestias tempora mollitia
-      deleniti, velit amet quasi alias commodi quos. Soluta ullam magnam earum enim excepturi dolorem laborum,
-      veniam hic. Voluptas.
-    </article>
-  </footer>
+            </ul>
+            
+          </div>
+          
+        </div>
+    </section>
 
-<body>
+    <section id="portfolio" class="profolio">
+      <h1 class="section--header">My projects</h1>
+      <article class="article-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis molestias tempora mollitia
+        deleniti, velit amet quasi alias commodi quos. Soluta ullam magnam earum enim excepturi dolorem laborum,
+        veniam hic. Voluptas.
+      </article>
+    </section>
 
-</body>
+    <footer id="contacts">
+      <h1 class="section--header">Contacts</h1>
+      <article class="article-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis molestias tempora mollitia
+        deleniti, velit amet quasi alias commodi quos. Soluta ullam magnam earum enim excepturi dolorem laborum,
+        veniam hic. Voluptas.
+      </article>
+    </footer>
+
+  </body>
 
 </html>
