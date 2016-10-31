@@ -102,6 +102,11 @@ h1 {
   background-color: #006064;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .intro {
   text-align: center;
   background-image: url("../img/bg-intro.png");
@@ -232,10 +237,44 @@ section, footer {
     margin-right: 0px;
   }
 
+  .intro {
+    height: 100%;
+  }
   .menu-item--link {
     font-size: 0.8rem;
   }
+
+  .info-foto {
+    display:none;
+  }
+
+  .info-skills {
+    height: 100%;
+    border-radius: 0;
+  }
+  .container-info {
+    flex-direction: column;
+  }
+
+  .skills-logo--img{
+  width: 50px;
+  height: 50px;
+  }
+
+  .info-skills--caption {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  .info-skills--logo,
+  .info-skills--name,
+  .info-skills--level {
+    font-size: 1.2rem;
+  }
+
 }
+
+
 @media screen and (max-width: 480px) {
   .nav .nav-menu .menu-item {
     margin-right: 0px;
