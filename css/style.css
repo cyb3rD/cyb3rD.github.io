@@ -249,7 +249,7 @@ section, footer {
   background-size: cover;
 }
 
-.portfolio article.article-text {
+.portfolio p.article-text {
   color: #183149;
   font-size: 1.5rem;
 }
@@ -297,6 +297,49 @@ section, footer {
   font-size: 1rem;
 }
 
+/*
+  Contacts
+*/
+.contacts {
+  text-align: center;
+  background-image: url("../img/bg-contacts.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.contacts p.article-text {
+  color: #183149;
+  font-size: 1.5rem;
+}
+.container-contacts {
+  display: flex;
+}
+
+.contacts-social {
+  flex: 1;
+  margin-right: 20px;
+  border: 1px solid white;
+  background-color: rgba(26, 59, 61, 0.6);
+  border-radius: 10px;
+}
+
+.contacts-social:hover {
+  background-color: rgba(26, 59, 61, 1);
+  
+}
+
+.social-link:hover {
+  color: #5294a3;
+}
+
+
+.social-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Roboto', sans-serif
+}
 /*
   Media queries
 */
