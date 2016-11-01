@@ -77,6 +77,14 @@ h1 {
   padding: 0 1em;
 }
 
+section, footer {
+  height: 100vh;
+  padding-top: 3.5rem;
+}
+
+/*
+  Navigation
+*/
 .nav {
   position: fixed;
   display: flex;
@@ -107,6 +115,9 @@ h1 {
   flex-direction: column;
 }
 
+/*
+  Intro section styles
+*/
 .intro {
   text-align: center;
   background-image: url("../img/bg-intro.png");
@@ -139,10 +150,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-section, footer {
-  height: 100vh;
-  padding-top: 3.5rem;
-}
+
 
 .section--header {
   font-family: 'Montserrat', sans-serif;
@@ -225,12 +233,73 @@ section, footer {
   font-weight: 700;
 } 
 
-
-
 .skills-logo--img{
   width: 100px;
   height: 100px;
 }
+
+/*
+  Portfolio styles
+*/
+
+.portfolio {
+  text-align: center;
+  background-image: url("../img/bg-projects.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.portfolio article.article-text {
+  color: #183149;
+  font-size: 1.5rem;
+}
+
+.container-projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-list {
+  display: flex;
+}
+
+.project-item {
+  display: flex;
+  flex: 1;
+  padding: 10px 0;
+  margin: 10px;
+  background-color: rgba(26, 59, 61, 0.6);
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Neuton', serif;
+  
+}
+
+.project-screen,
+.project-description {
+  flex: 1;
+}
+
+.project-screen-img {
+  border: 2px solid white;
+}
+
+.project-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+.project-details {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+/*
+  Media queries
+*/
 
 @media screen and (max-width: 320px) {
   .nav .nav-menu .menu-item {
